@@ -1,1 +1,1 @@
-go build -o test1 . && ./test1
+docker run hello-world
