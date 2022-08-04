@@ -4,6 +4,4 @@ WORKDIR /test
 
 COPY main.go main.go
 
-RUN go build -o main .
-
-ENTRYPOINT [ "./main" ]
+CMD go run main.go
